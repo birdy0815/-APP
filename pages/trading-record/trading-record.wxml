@@ -1,0 +1,129 @@
+<!--pages/trading-record/trading-record.wxml-->
+<view class="time-selection">
+    <view class="selected">近一月</view>
+    <view>近二月</view>
+    <view>近三月</view>
+    <view>更早</view>
+</view>
+<scroll-view scroll-y="true" style="height:{{srcHeight}}px">
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money">￥800.00</view>
+        <view class="status">交易成功</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money">￥800.00</view>
+        <view class="status">交易成功</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money-2">￥800.00</view>
+        <view class="status-2">交易失败</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money">￥800.00</view>
+        <view class="status">交易成功</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money">￥800.00</view>
+        <view class="status">交易成功</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money-2">￥800.00</view>
+        <view class="status-2">交易失败</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money-2">￥800.00</view>
+        <view class="status-2">交易失败</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money">￥800.00</view>
+        <view class="status">交易成功</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money">￥800.00</view>
+        <view class="status">交易成功</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money-2">￥800.00</view>
+        <view class="status-2">交易失败</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money">￥800.00</view>
+        <view class="status">交易成功</view>
+    </view>
+</view>
+<view class="record-list">
+    <view class="record-list-left">
+        <view class="type">银联消费</view>
+        <view class="time">2017-01-01   10：00</view>
+    </view>
+    <view class="record-list-right">
+        <view class="money-2">￥800.00</view>
+        <view class="status-2">交易失败</view>
+    </view>
+</view>
+</scroll-view>

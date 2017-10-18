@@ -1,0 +1,7 @@
+<template name="arrChar">
+  <block wx:for="{{arrChar}}">
+    <view class="btnGroup">
+      <view wx:for="{{item}}" class="{{item.cls}}" catchtap="{{item.tap}}" id="{{item.id}}">{{item.val}}</view>
+    </view>
+  </block>
+</template>  

@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/testapi/testapi",
+    "pages/home/home",
+    "pages/trading-info/trading-info",  
+    "pages/trading-record/trading-record",   
+    "pages/myaccount/myaccount",
+    "pages/myself/myself",
+    "pages/quick-login/quick-login",
+    "pages/mycard/mycard",   
+    "pages/bankcard-verify/bankcard-verify",    
+    "pages/certify/certify",   
+    "pages/setup-pay-pwd/setup-pay-pwd",   
+    "pages/register/register",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/pay-login/pay-login",                  
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#373951",
+    "navigationBarTitleText": "纵横钱包",
+    "navigationBarTextStyle":"white"
+  },
+   "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#373951",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "iconPath": "images/icon_home_press.png",
+      "selectedIconPath": "images/icon_home.png",
+      "text": "首页"
+    },{
+      "pagePath": "pages/myself/myself",
+      "iconPath": "images/icon_my_press.png",
+      "selectedIconPath": "images/icon_my.png",
+      "text": "我的"
+    }]
+  }
+}

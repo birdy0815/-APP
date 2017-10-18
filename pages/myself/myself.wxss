@@ -1,0 +1,76 @@
+/* pages/myself/myself.wxss */
+page{
+    background-color:#efeff4;
+}
+.userinfo-avatar{
+    height:120rpx;
+    width:120rpx;
+}
+.userinfo-nickname{
+    margin-left:40rpx;
+    font-size:36rpx;
+    color:#373951;
+}
+.myself-top{
+    background-color:#ffffff;
+    margin:20rpx 0;
+    padding:20rpx 30rpx;
+    display:flex;
+    align-items:center;
+}
+.icon-1{
+    width:56rpx;
+    height:56rpx;
+    margin-right:20rpx;
+}
+.myself-list{
+    height:50rpx;
+    display:flex;
+    justify-content: space-between;
+    background-color:#ffffff;
+    align-items:center;
+    padding:30rpx 50rpx 30rpx 30rpx;
+    border-bottom:1px solid #efeff4;
+}
+.myself-list-left{
+    color:#373951;
+    display:flex;
+    align-items:center;
+    font-size:36rpx;
+}
+.myself-list-right{
+    color:#999999;
+    font-size:30rpx;
+    display:flex;
+    align-items:center;
+}
+.myself-item{
+    height:50rpx;
+    display:flex;
+    justify-content: space-between;
+    background-color:#ffffff;
+    align-items:center;
+    padding:30rpx 50rpx 30rpx 30rpx;
+    margin-bottom:20rpx;
+}
+.arrow-right{
+    background-size:26rpx 26rpx;
+    background-position:right 10rpx top 40rpx;
+    background-image:url(../../images/arrow_right.png);
+    background-repeat: no-repeat;
+}
+.ar-verify{
+    color:#09b907;
+    padding:6rpx;
+    border:1px solid #09b907;
+    margin-right:20rpx;
+    font-size:24rpx;
+    border-radius:6rpx;
+}
+.no-verify{
+    color:#ed414d;
+    padding:6rpx;
+    border:1px solid #ed414d;
+    font-size:24rpx;
+    border-radius:6rpx;
+}

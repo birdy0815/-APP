@@ -1,0 +1,13 @@
+<import src="../../component/calc/calc.wxml"/>
+<view class="pay-login-box">
+    <view class="pay-login-av">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        <text class="tip">为了保证您的账户安全，请输入支付密码</text>
+    </view>
+    <view class="pay-login-pwd">
+        <template is="loginPannel" data="{{ ...__lgpanel__ }}" />
+    </view>
+    <view class="login-btn"><text>登 录</text></view>
+    <view class="login-bar"><text>使用其他账户登录</text></view>
+</view>

@@ -1,0 +1,21 @@
+<template name="loginPannel">
+<import src="arrnumber.wxml"/>
+<import src="arrchar.wxml"/>
+<view class="pwd-content" >
+  <view class="pwd-layout-top" hidden="{{ ishide }}"  catchtap="onkeyword">
+    <view class="pwd-screen">
+     {{ screenData }}
+    </view>
+    <image catchtap="showpwd" hidden="{{eyeshow}}" class="eyeshow" src="../../images/eyeshow.png" ></image>
+    <image catchtap="hidepwd" hidden="{{eyehide}}" class="eyehide" src="../../images/eyehide.png"></image>
+  </view>   
+  <view class="pwd-layout-bottom">
+    <view hidden="{{ ishidenum }}">
+      <template is="arrNumber" data="{{ arrNumber }}" />
+    </view>
+     <view hidden="{{ ishidechar }}">
+      <template is="arrChar" data="{{ arrChar }}" />
+    </view>            
+  </view>
+</view>
+</template>

@@ -1,0 +1,48 @@
+/* pages/mycard/mycard.wxss */
+page{
+    background-color:#efeff4;    
+}
+.card-list{
+    border-radius:10rpx;
+    background-color:#416698;
+    margin:20rpx;
+    padding:20rpx 10rpx;
+}
+.card-list .bank{
+    font-size:36rpx;
+    color:#ffffff;
+    padding:10rpx;
+}
+.card-info{
+    padding:10rpx;
+    color:#ffffff;
+    font-size:24rpx;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px dashed #5e7aa4;
+}
+.card-number{
+    font-size:30rpx;
+}
+.card-use{
+    display:flex;
+    justify-content: flex-end;
+    font-size:30rpx;
+    color:#ffffff;
+    padding:10rpx;    
+}
+.card-add{
+    margin:20rpx;
+    border-radius:10rpx;
+    font-size:36rpx;
+    text-align:center;
+    border:1px dashed #aaaaaa;
+    color:#373951;
+    padding:20rpx;
+}
+.card-tip{
+    font-size:30rpx;
+    padding:0 100rpx;
+    text-align:center;
+    color:#666666;    
+}

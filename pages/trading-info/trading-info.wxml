@@ -1,0 +1,35 @@
+<!--pages/trading-info/trading-info.wxml-->
+<view class="info-box">
+    <view class="info-item">
+        <view>订单号</view>
+        <view>20170209174706666668442</view>
+    </view>
+    <view class="info-item">
+        <view>商户名称</view>
+        <view>银联</view>
+    </view>
+    <view class="info-item">
+        <view>订单详情</view>
+        <view>银联消费</view>
+    </view>
+    <view class="info-item">
+        <view>订单生成日期</view>
+        <view>2017-02-09 17:48:38</view>
+    </view>
+    <view class="info-item">
+        <view>订单金额</view>
+        <view>60.00元</view>
+    </view>
+    <view class="info-item">
+        <view>交易状态</view>
+        <view>成功</view>
+    </view>
+    <view class="info-item">
+        <view>支付方式</view>
+        <view>预付卡</view>
+    </view>
+    <view class="info-item">
+        <view>交易卡号</view>
+        <view>**** **** **** 8442</view>
+    </view>                 
+</view>

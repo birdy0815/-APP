@@ -1,0 +1,70 @@
+<!--pages/myaccount/myaccount.wxml-->
+<view class="mc-total">
+    <view class="mc-total-number">
+        账户合计:<text class="mc-money">1500.00</text>
+    </view>
+    <view class="mc-total-date">更新时间:2016-06-06</view>
+</view>
+<view class="mc-card no-real-card">
+    <view class="mc-top">
+        <view class="mc-top-left">
+            <view class="mc-pic">
+                <image src="../../images/mc_card.png"></image>
+            </view>
+            <view class="mc-info">
+                <view>**** **** **** 2984</view>
+                <view>预付费卡</view>
+            </view>
+        </view>
+        <view class="mc-top-right">
+            <text class="mc-face-value">500.00</text>
+        </view>
+    </view>
+    <view class="mc-tool">
+        <text class="mc-card-type">非实名卡</text>
+        <text class="mc-action">解绑</text>
+    </view>
+</view>
+<view class="mc-card">
+    <view class="mc-top">
+        <view class="mc-top-left">
+            <view class="mc-pic">
+                <image src="../../images/mc_card.png"></image>
+            </view>
+            <view class="mc-info">
+                <view>**** **** **** 2984</view>
+                <view>预付费卡</view>
+            </view>
+        </view>
+        <view class="mc-top-right">
+            <text class="mc-face-value">500.00</text>
+        </view>
+    </view>
+    <view class="mc-tool">
+        <text class="mc-card-type">已实名卡</text>
+        <text class="mc-action">删除</text>
+    </view>
+</view>
+<view class="mc-card">
+    <view class="mc-top">
+        <view class="mc-top-left">
+            <view class="mc-pic">
+                <image src="../../images/mc_card.png"></image>
+            </view>
+            <view class="mc-info">
+                <view>**** **** **** 2984</view>
+                <view>预付费卡</view>
+            </view>
+        </view>
+        <view class="mc-top-right">
+            <text class="mc-face-value">500.00</text>
+        </view>
+    </view>
+    <view class="mc-tool">
+        <text class="mc-card-type">已实名卡</text>
+        <text class="mc-action">删除</text>
+    </view>
+</view>
+<view class="card-add">
+    <text>+ 添加预付费卡</text>
+</view>

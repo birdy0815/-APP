@@ -1,0 +1,28 @@
+<!--pages/bankcard-verify/bankcard-verify.wxml-->
+<view class="login-box">
+    <view class="login-item">
+        <text class="login-text">持卡人</text>
+        <text>张晓晓</text>
+    </view>
+    <view class="login-item">
+        <text class="login-text">卡 号</text>
+        <input class="login-input" type="number" placeholder="输入银行卡卡号" />
+    </view>
+    <view class="login-item">
+        <text class="login-text">卡类型</text>
+        <text></text>
+    </view>
+    <view class="login-item">
+        <text class="login-text">银行预留手机号</text>
+        <input class="login-input" type="number" placeholder="输入手机号码" />
+    </view>
+    <view class="login-item-end">
+        <text class="login-text">手机验证码</text>
+        <input class="login-input" type="number" placeholder="输入验证码" />
+        <text class="{{verifyClass}}" bindtap="{{bindCode}}">{{verifyText}}</text>
+    </view>            
+</view>
+<view class="login-btn-gray"><text>提 交</text></view>
+<view class="bottom-tip">
+    <text>接下来，我们需要您花几分钟来完成账户设置</text>
+</view>

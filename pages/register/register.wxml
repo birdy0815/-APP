@@ -1,0 +1,32 @@
+<import src="../../component/calc/calc.wxml"/>
+<view class="login-box">
+    <view class="login-item">
+        <text class="login-text">+86</text>
+        <input class="login-input" type="number" placeholder="请输入手机号" />
+    </view>
+    <view class="login-item">
+        <text class="login-text">手机验证码</text>
+        <input class="login-input" type="number" placeholder="请输入验证码" />
+        <text class="{{verifyClass}}" bindtap="{{bindCode}}">{{verifyText}}</text>    
+    </view>
+    <view class="login-item">
+        <text class="login-text">设置登录密码</text>
+        <view class="login-pwd">
+            <template is="loginPannel" data="{{ ...__lgpanel__ }}" />
+        </view>
+    </view>
+    <view class="login-item-end">
+        <text class="login-text">确认登录密码</text>
+        <view class="login-pwd">
+            <template is="loginPannel" data="{{ ...__lgpanel__ }}" />
+        </view>
+    </view>
+</view>
+<view class="word-style">同意<text class="link">《纵横钱包服务协议》</text></view>
+<view class="login-btn-gray"><text>注 册</text></view>
+<view class="login-bar">
+    <text class="login-reg">已有帐号去登录</text>
+</view>
+<view class="bottom-tip">
+    <text>注册即表示同意《纵横钱包服务协议》</text>
+</view>

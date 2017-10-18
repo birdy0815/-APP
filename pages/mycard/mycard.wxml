@@ -1,0 +1,22 @@
+<!--pages/mycard/mycard.wxml-->
+<view class="card-list">
+    <view class="bank"><text>工商银行</text></view>
+    <view class="card-info"><text class="card-type">储蓄卡</text><text class="card-number">**** **** **** 0809</text></view>
+    <view class="card-use"><text class="card-del">删除</text></view>
+</view>
+<view class="card-list">
+    <view class="bank"><text>工商银行</text></view>
+    <view class="card-info"><text class="card-type">储蓄卡</text><text class="card-number">**** **** **** 0809</text></view>
+    <view class="card-use"><text class="card-del">删除</text></view>
+</view>
+<view class="card-list">
+    <view class="bank"><text>工商银行</text></view>
+    <view class="card-info"><text class="card-type">储蓄卡</text><text class="card-number">**** **** **** 0809</text></view>
+    <view class="card-use"><text class="card-del">删除</text></view>
+</view>
+<view class="card-add">
+    <text>+ 新增银行卡</text>
+</view>
+<view class="card-tip">
+<text>如果您需更换银行卡，请先新增银行卡超过一张银行卡时方可删除原卡</text>
+</view>

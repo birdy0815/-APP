@@ -1,0 +1,34 @@
+<view class="home">
+    <view class="word">
+        <image src="../../images/word.png"></image>
+        <navigator url="../pay-login/pay-login" open-type="redirect">
+        <text class="num">网络账户总金额<text>---</text></text>
+        <text class="num">年度剩余消费额度<text>---</text></text>
+        </navigator>
+    </view>
+    <view class="btn-wrap">
+       <navigator url="../login/login">
+        <text class="btn">登录/注册</text>
+       </navigator>
+    </view>
+</view>
+<view class="home-list">
+    <view class="home-item bg-1">
+        <text class="home-tit">绑定预付卡</text>
+        <text class="home-info">·绑定预付费卡,卡包集合</text>
+    </view>
+    <view class="home-item bg-2">
+        <text class="home-tit">交易记录</text>
+        <text class="home-info">·交易记录,每笔交易清晰准确</text>    
+    </view>
+    <view class="home-item bg-3">
+        <navigator url="../myaccount/myaccount" open-type="redirect">
+        <text class="home-tit">我的网络账户</text>
+        <text class="home-info">·账户关联,管理我的网络账户</text>
+        </navigator>
+    </view>
+     <view class="home-item bg-4">
+        <text class="home-tit">使用说明</text>
+        <text class="home-info">·不会使用,查看这里</text>
+    </view>           
+</view>

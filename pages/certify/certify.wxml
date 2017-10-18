@@ -1,0 +1,15 @@
+<!--pages/certify/certify.wxml-->
+<view class="login-box">
+    <view class="login-item">
+        <text class="login-text-2">姓 名</text>
+        <input class="login-input" type="text" placeholder="请输入真实姓名" />
+    </view>
+    <view class="login-item-end">
+        <text class="login-text">证件号码</text>
+        <input class="login-input" type="number" placeholder="请输入证件号码" />
+    </view>
+</view>
+<view class="login-btn-gray"><text>提 交</text></view>
+<view class="bottom-tip">
+    <text>接下来，我们需要您花几分钟来完成账户设置</text>
+</view>

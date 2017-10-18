@@ -1,0 +1,7 @@
+<template name="arrNumber">
+  <block wx:for="{{arrNumber}}">
+    <view class="btnGroup" hidden="{{ishidenum}}">
+      <view wx:for="{{item}}" class="{{item.cls}}" catchtap="{{item.tap}}" id="{{item.id}}">{{item.val}}</view>
+    </view>
+  </block>
+</template>

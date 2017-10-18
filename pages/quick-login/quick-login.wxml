@@ -1,0 +1,27 @@
+<!--pages/quick-login/quick-login.wxml-->
+<import src="../../component/calc/calc.wxml"/>
+<view class="login-nav">
+    <view class="{{pwdClass}}" bindtap="toPwd">密码登录</view>
+    <view class="{{quickClass}}" bindtap="toTel">快捷登录</view>
+</view>
+<view class="login-box">
+    <view class="login-item">
+        <text class="login-text">登 录</text>
+        <input class="login-input" type="number" placeholder="请输入手机号" />
+    </view>
+    <view class="login-item-end" hidden="{{hidepwd}}">
+        <text class="login-text">密 码</text>
+        <view class="login-pwd">
+            <template is="loginPannel" data="{{ ...__lgpanel__ }}" />
+        </view>
+    </view>
+    <view class="login-item-end" hidden="{{hidetel}}">
+        <text class="login-text">手机验证码</text>
+        <input class="login-input" type="number" placeholder="请输入验证码" />
+        <text class="{{verifyClass}}" bindtap="{{bindCode}}">{{verifyText}}</text>
+    </view>
+</view>
+<view class="login-btn"><text>登 录</text></view>
+<view class="login-bar">
+    <text class="login-reg">注册</text><text class="login-forgetpwd">忘记密码?</text>
+</view>

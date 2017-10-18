@@ -1,0 +1,19 @@
+<import src="../../component/calc/calc.wxml"/>
+<view class="login-box">
+    <view class="login-item">
+        <text class="login-text">设置支付密码</text>
+        <view class="login-pwd">
+            <template is="loginPannel" data="{{ ...__lgpanel__ }}" />
+        </view>
+    </view>
+    <view class="login-item-end">
+        <text class="login-text">确认支付密码</text>
+        <view class="login-pwd">
+            <template is="loginPannel" data="{{ ...__lgpanel__ }}" />
+        </view>
+    </view>
+</view>
+<view class="login-btn-gray"><text>提 交</text></view>
+<view class="bottom-tip">
+    <text>接下来，我们需要您花几分钟来完成账户设置</text>
+</view>

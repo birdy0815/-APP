@@ -1,0 +1,62 @@
+/* pages/trading-record/trading-record.wxss */
+page{
+    background-color:#efeff4;
+}
+.time-selection{
+    display:flex;
+    border-bottom:1px solid #d7d7d7;
+    height:44px;
+    line-height:44px;
+    color:#999999;
+}
+.time-selection view{
+    flex:1;
+    text-align:center;
+    font-size:30rpx;
+}
+.time-selection .selected{
+    border-bottom:2rpx solid #373951;
+    color:#373951;
+}
+.record-list{
+    padding:20rpx 30rpx;
+    border-bottom:1px solid #cccccc;
+    line-height:54rpx;
+    background-color:#ffffff;
+    display:flex;
+    justify-content:space-between;
+}
+.type{
+    color:#373951;
+    font-size:30rpx;
+}
+.time{
+    color:#999999;
+    font-size:24rpx;
+}
+.money{
+    color:#09b907;
+    font-size:30rpx;
+}
+.money-2{
+    color:#e64240;
+    font-size:30rpx;
+}
+.status{
+    color:#09b907;
+    background-color:#e6f8e6;
+    border-radius:20rpx;
+    font-size:24rpx;
+    text-align:center;
+    line-height:36rpx;
+    margin-top:10rpx;
+}
+.status-2{
+    color:#e64240;
+    background-color:#fcecec;
+    border-radius:20rpx;
+    font-size:24rpx;
+    text-align:center;
+    line-height:36rpx;
+    margin-top:10rpx;
+}

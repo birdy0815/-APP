@@ -1,0 +1,18 @@
+/* pages/trading-info/trading-info.wxss */
+page{
+    background-color:#efeff4;
+}
+.info-box{
+    margin:20rpx 0;
+    border-top:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+    background-color:#ffffff;
+    padding:40rpx 30rpx;
+}
+.info-item{
+    display:flex;
+    justify-content:space-between;
+    font-size:30rpx;
+    color:#666666;
+    line-height:55rpx;
+}

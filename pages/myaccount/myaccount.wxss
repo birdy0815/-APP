@@ -1,0 +1,89 @@
+/* pages/myaccount/myaccount.wxss */
+page{
+    background-color:#efeff4;
+}
+.mc-total{
+    margin:50rpx 20rpx 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.mc-total-number{
+    font-size:36rpx;
+    color:#373951;
+}
+.mc-money{
+    color:#ed414d;
+    font-size:48rpx;
+}
+.mc-total-date{
+    font-size:24rpx;
+    color:#999999;
+}
+.mc-card{
+    margin:20rpx;
+    padding:10rpx;
+    background-color:#494b61;
+    border-radius:10rpx;
+}
+.mc-pic{
+    width:57rpx;
+    height:65rpx;
+    background-color:#ffffff;
+    padding:4rpx;
+    border-radius:10rpx;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    margin-right:20rpx;
+}
+.mc-pic image{
+    width:57rpx;
+    height:37rpx;
+}
+.mc-top{
+    display:flex;
+    justify-content:space-between;
+    padding:10rpx;
+    border-bottom:1px dashed rgba(255,255,255,0.5);
+}
+.mc-top-left{
+    display:flex;
+}
+.mc-info{
+    font-size:24rpx;
+    color:#ffffff;
+}
+.mc-info view{
+    line-height:36rpx;
+}
+.mc-face-value{
+    font-size:48rpx;
+    color:#ffffff;
+}
+.mc-tool{
+    display:flex;
+    justify-content:space-between;
+    padding:10rpx;
+    align-items:baseline;
+}
+.mc-card-type{
+    font-size:24rpx;
+    color:#ffffff;
+}
+.mc-action{
+    font-size:30rpx;
+    color:#ffffff;
+}
+.no-real-card{
+    background-color:#faab32;
+}
+.card-add{
+    margin:20rpx;
+    border-radius:10rpx;
+    font-size:36rpx;
+    text-align:center;
+    border:1px dashed #aaaaaa;
+    color:#373951;
+    padding:20rpx;
+}

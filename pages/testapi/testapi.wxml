@@ -1,0 +1,9 @@
+<view>
+<text>{{apiName}}</text>
+</view>
+<view>
+<text>{{apiUrl}}</text>
+</view>
+<view>
+<text>测试结果:{{apiTest}}</text>
+</view>
